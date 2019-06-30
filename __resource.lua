@@ -9,4 +9,7 @@ files {
     'h.html'
 }
 
-export "startUI"
+exports {
+  'startUI',
+  'closeUI',
+}

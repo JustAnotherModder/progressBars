@@ -10,6 +10,6 @@ end
 function closeUI(...) 
   SendNUIMessage({
     type = "ui",
-    display = false
+    display = false,
   })
 end

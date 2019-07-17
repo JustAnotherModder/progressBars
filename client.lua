@@ -13,3 +13,6 @@ function closeUI(...)
     display = false,
   })
 end
+
+RegisterCommand('sp', function(...) startUI(60 * 1000); end)
+RegisterCommand('cp', function(...) closeUI(); end)
